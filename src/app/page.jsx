@@ -237,10 +237,10 @@ export default function Page() {
             </ScrollReveal>
 
             {formState === 'success' && <div className="form-msg form-msg--ok">Спасибо! Мы свяжемся с вами.</div>}
-            {formState === 'error' && <div className="form-msg form-msg--err">Ошибка. Напишите на info@svoemedia.ru</div>}
+            {formState === 'error' && <div className="form-msg form-msg--err">Ошибка. Напишите на info@svoe-media.ru</div>}
 
             <ScrollReveal>
-              <p className="contact-direct">Или напишите напрямую: <Link href="mailto:info@svoemedia.ru"><strong>info@svoemedia.ru</strong></Link></p>
+              <p className="contact-direct">Или напишите напрямую: <Link href="mailto:info@svoe-media.ru"><strong>info@svoe-media.ru</strong></Link></p>
             </ScrollReveal>
           </div>
         </section>
@@ -252,7 +252,7 @@ export default function Page() {
             <p className="footer-tagline">Медиа-активы для брендов</p>
             <div className="footer-row">
               <span>© {new Date().getFullYear()}</span>
-              <Link href="mailto:info@svoemedia.ru">info@svoemedia.ru</Link>
+              <Link href="mailto:info@svoe-media.ru">info@svoe-media.ru</Link>
               <span>Москва</span>
             </div>
           </div>
